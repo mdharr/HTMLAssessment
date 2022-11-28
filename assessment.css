@@ -82,24 +82,12 @@ ol > li:first-child {
   font-weight: bold;
 }
 
-thead tr {
-  background-color: lightgrey;
-}
-
-table thead tr:nth-child(odd) {
-  background-color: #FBF8BE;
-}
-
-table tbody tr:nth-child(even) {
-  background-color: lightgrey;
-}
-
-table tbody tr:nth-child(odd) {
+tr:nth-child(odd) {
   background-color: grey;
 }
 
-table tfoot tr:nth-child(odd) {
-  background-color: grey;
+tr:nth-child(even) {
+  background-color: lightgrey;
 }
 
 #teamRoster > li {
