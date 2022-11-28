@@ -93,3 +93,7 @@ tr:nth-child(even) {
 #teamRoster > li {
   list-style-type: none;
 }
+
+ul > li > img {
+  display: none;
+}
