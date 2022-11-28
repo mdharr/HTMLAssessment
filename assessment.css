@@ -1,0 +1,107 @@
+.subjectHeader {
+    font-family: sans-serif;
+    color: green;
+}
+
+th {
+    font-weight: bold;
+    color: red;
+}
+
+table, th, tr, td {
+  border: 1px solid black;
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+ul {
+  list-style: square;
+}
+
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+
+a:visited {
+  color: green;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+a:active {
+  color: blue;
+  text-decoration: none;
+}
+
+blockquote {
+  background-color: #FBF8BE;
+  color: darkgreen;
+}
+
+#teamRoster > li {
+  position: relative;
+}
+
+#teamRoster > li:first-child ul::after {
+  content: "";
+  background-image: url('https://upload.wikimedia.org/wikipedia/en/4/44/Denver_Broncos_logo.svg');
+  opacity: 0.25;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+#teamRoster > li:last-child ul::after {
+  content: "";
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/5/5c/Chicago_Bears_logo.svg');
+  opacity: 0.25;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+#checkbox-grid {
+  list-style-type: none;
+}
+
+ol > li:first-child {
+  font-weight: bold;
+}
+
+thead tr {
+  background-color: lightgrey;
+}
+
+table thead tr:nth-child(odd) {
+  background-color: #FBF8BE;
+}
+
+table tbody tr:nth-child(even) {
+  background-color: lightgrey;
+}
+
+table tbody tr:nth-child(odd) {
+  background-color: grey;
+}
+
+table tfoot tr:nth-child(odd) {
+  background-color: grey;
+}
+
+#teamRoster > li {
+  list-style-type: none;
+}
