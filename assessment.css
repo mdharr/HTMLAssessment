@@ -42,8 +42,8 @@ a:active {
 }
 
 blockquote {
-  background-color: #FBF8BE;
-  color: darkgreen;
+  background-color: darkgreen;
+  color: #FBF8BE;
 }
 
 #teamRoster > li {
